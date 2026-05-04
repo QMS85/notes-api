@@ -1,16 +1,4 @@
-I'm currently in read-only mode, so I can't create files directly. However, I can provide you with a comprehensive README.md that you can copy and create yourself.
 
-But first, let me gather the full context of your project to make the README accurate:    
-
-Read [](file:///c%3A/Users/Jonathan/OneDrive/Desktop/Skills/NodeJS%20Projects/notes-api/package.json)
-
-Read [](file:///c%3A/Users/Jonathan/OneDrive/Desktop/Skills/NodeJS%20Projects/notes-api/_routes/notes.js)
-
-Read [](file:///c%3A/Users/Jonathan/OneDrive/Desktop/Skills/NodeJS%20Projects/notes-api/controllers/authControllers.js)
-
-Read [](file:///c%3A/Users/Jonathan/OneDrive/Desktop/Skills/NodeJS%20Projects/notes-api/middleware/authMiddleware.js)
-
-Here's a comprehensive README.md for your Notes API project. Copy this content and create a `README.md` file in your notes-api directory:
 
 ```markdown
 # Notes API
@@ -190,7 +178,7 @@ Content-Type: application/json
 **Response (200 OK):**
 ```json
 {
-  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9..."
+  "token": "abc123.."
 }
 ```
 
@@ -405,4 +393,3 @@ For issues or questions, please review the project structure and verify:
 - JWT secret key is configured
 ```
 
-You can now copy this entire content, create a `README.md` file in your `notes-api` directory, and paste it there!You can now copy this entire content, create a `README.md` file in your `notes-api` directory, and paste it there!
