@@ -35,7 +35,7 @@ A RESTful API for managing notes with user authentication. Built with Express.js
 
 ## Project Structure
 
-```
+
 notes-api/
 ├── server.js                 # Main Express server entry point
 ├── package.json              # Dependencies and project metadata
@@ -54,8 +54,6 @@ notes-api/
     ├── userModel.js          # User data operations
     └── notesModel.js         # Notes data operations
 ```
-
----
 
 ## Prerequisites
 
