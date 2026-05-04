@@ -3,7 +3,8 @@
 ```markdown
 # Notes API
 
-A RESTful API for managing notes with user authentication. Built with Express.js and secured with JWT (JSON Web Tokens).
+A RESTful API for managing notes with user authentication. Built with Express.js and secured with JWT
+(JSON Web Tokens).
 
 ## Table of Contents
 
