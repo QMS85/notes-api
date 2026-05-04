@@ -1,0 +1,43 @@
+### Register a new user
+POST http://localhost:3000/register
+Content-Type: application/json
+
+{
+  "username": "jonathan",
+  "password": "mypassword"
+}
+
+### Login to get JWT token
+POST http://localhost:3000/login
+Content-Type: application/json
+
+{
+  "username": "jonathan",
+  "password": "mypassword"
+}
+
+### List notes (replace <TOKEN> with JWT from login)
+GET http://localhost:3000/notes
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImpvbmF0aGFuIiwiaWF0IjoxNzc3ODUxNDQ3LCJleHAiOjE3Nzc4NTUwNDd9.bC7lB1AxGVF4N22vIlIMx3Yg-l2hMll5dSfCIz6jHU0
+
+### Add a new note
+POST http://localhost:3000/notes
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImpvbmF0aGFuIiwiaWF0IjoxNzc3ODUxNDQ3LCJleHAiOjE3Nzc4NTUwNDd9.bC7lB1AxGVF4N22vIlIMx3Yg-l2hMll5dSfCIz6jHU0
+Content-Type: application/json
+
+{
+  "message": "Learn Node.js"
+}
+
+### Update a note by ID
+PUT http://localhost:3000/notes/1
+Authorization: Bearer <TOKEN>
+Content-Type: application/json
+
+{
+  "message": "Master Node.js"
+}
+
+### Delete a note by ID
+DELETE http://localhost:3000/notes/1
+Authorization: Bearer <TOKEN>
